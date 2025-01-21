@@ -1,0 +1,14 @@
+/* General styles */
+
+.teste {
+    color: red;
+    font-size: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+
