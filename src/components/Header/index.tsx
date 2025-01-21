@@ -14,9 +14,14 @@ const Header: React.FC = () => {
        
         <nav className="nav">
             <ul className="nav-list">
-                <li className="nav-item"><a className="nav-link" href="#inicio">Inicio</a></li>
-                <li className="nav-item"><a className="nav-link" href="#servicos">Serviços</a></li>
-                <li className="nav-item"><a className="nav-link" href="#projetos">Projetos</a></li>
+                <li  className="nav-item">
+                <Link to="/">Inicio</Link>
+                </li>
+                <li className="nav-item">
+                <Link to="/services">Serviços</Link></li>
+                <li className="nav-item">
+                <Link to="/projects">Projetos</Link>
+                </li>
             </ul>
         </nav>
         <Routes>
