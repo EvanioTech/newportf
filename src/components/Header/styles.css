@@ -8,25 +8,19 @@ body {
     background-color: #1e2225;
     padding: 20px;
     display: flex;
-    justify-content: center;
+   
     
     flex-direction: row;
-    position: fixed;
+   
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    align-items: center;
+   
+    
+   
     
    
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 2em;
-    color: #333;
-    
-}
+
 
 .header nav {
     margin-top: 10px;
@@ -39,9 +33,7 @@ body {
     color: #007bff;
 }
 
-.header nav a:hover {
-    text-decoration: underline;
-}
+
 
 .header nav ul {
     list-style: none;
@@ -51,5 +43,5 @@ body {
 }
 
 .header nav ul li {
-    margin: 0 10px;
+    margin: 0 100px;
 }
