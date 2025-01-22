@@ -6,14 +6,64 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 100vh;
+   
     
     background-color: aliceblue;
    
 }
 
+.teste:hover{
+    color: blue;
+    transition: 0.5s;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .body{
     width: 100%;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-left: 60px;
+}
+
+.containerImg{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.textShow{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.textShow:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.containerDev{
+    flex-direction: row;
+}
+
+.listDev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
 }
 
 
